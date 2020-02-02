@@ -109,7 +109,7 @@
         margin: auto;
         height: 15vw;
         width: 15vw;
-        border: blue solid 2px;
+        border: cornflowerblue solid 2px;
         border-radius: 50%;
     }
     #pass{
@@ -118,5 +118,8 @@
     }
     #pass>input{
         width: 22%;
+    }
+    h1{
+        color: cornflowerblue;
     }
 </style>

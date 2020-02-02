@@ -50,5 +50,7 @@
 </script>
 
 <style scoped>
-
+    h3{
+        color: coral;
+    }
 </style>

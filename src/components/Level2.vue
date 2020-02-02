@@ -3,14 +3,14 @@
         <h3>下列哪个是真实的苗喵喵</h3>
         <div id="img">
             <div>
-                <img src="../img/img1.jpg" @click="fun0()">
+                <img src="../img/img-left.jpg" @click="fun0()">
                 <div class="cover" ref="cover1" hidden>✔</div>
             </div>
             <div class="middle">
                 <h3>or</h3>
             </div>
             <div>
-                <img src="../img/img2.jpg" @click="fun1()">
+                <img src="../img/img-right.jpg" @click="fun1()">
                 <div class="cover" ref="cover2" hidden>✔</div>
             </div>
         </div>
@@ -98,5 +98,8 @@
         float: left;
         width: 100%;
         height: 100%;
+    }
+    h3{
+        color: coral;
     }
 </style>
